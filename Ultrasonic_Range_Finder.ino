@@ -22,11 +22,10 @@ void setup() {
   */
 }
 
-  //////////////////////////////////////////
-  //Figure out how to program the         //
-  //ultrasonic sensor to print results on //
-  //the LCD.                              //
-  //////////////////////////////////////////
+////////////////////////////////
+//Displays results on the LCD //
+//module.                      //
+////////////////////////////////
 
 void loop() {
   // put your main code here, to run repeatedly:
