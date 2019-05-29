@@ -60,7 +60,7 @@ void loop() {
   distance = ultrasonic.read(INC);// reads output from sensor-in INCHES/ default is Centimeters
   lcd.print(distance);//prints out distance onto LCD
   //delay(100);
-  ultrasonic.setTimeout(40000UL); //30 microseconds (40ms/6.8m range)
+  ultrasonic.setTimeout(30000UL); //30 microseconds (40ms/6.8m range)
   /*waittime before allowing library to lockup
   if the return pulse takes too long.*/
 
